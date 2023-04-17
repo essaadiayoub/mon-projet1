@@ -1,1 +1,40 @@
-le code de mon projrt.
+<! DOCTYPE html>
+<.html>
+
+<tête>
+
+  <meta charset="UTF-8">
+  <meta name="viewport » content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type » content="text/html; charset=UTF-8" />
+  <title>Page de connexion au portail captif</title>
+  <style>
+	  #contenu,. connexion,. carte de connexion a,. carte de connexion h1,. login-help{text-align:center}body,html{margin:0; rembourrage:0; largeur:100%; hauteur:100%; display:table}#content{font-family:'Source Sans Pro',sans-serif; arrière-plan:url(http://192.168.1.1/captiveportal-background.jpg) centre sans répétition corrigé; -webkit-background-size: couverture; -moz-background-size: couverture; -o-background-size: couverture; background-size:couverture; affichage:cellule-tableau; vertical-align:middle}. login-card{padding:40px; largeur:274px; couleur de fond: #F7F7F7; marge:0 auto 10px; rayon de bordure:2px; box-shadow:0 2px 2px rgba(0,0,0,.3); débordement:masqué}. login-card h1{font-weight:400; font-size:2.3em; couleur:#1383c6}. Login-Card H1 span{color:#f26721}. login-card img{width:70%; hauteur:70%}. login-card input[type=submit]{width:100%; affichage:bloc; marge-bas:10px; position:relative}. login-card input[type=text],input[type=password]{height:44px; font-size:16px; largeur:100%; marge-bas:10px; -webkit-apparence: aucun; arrière-plan:#fff; bordure:1px solide #d9d9d9; border-top: 1px argent massif; Rembourrage:0 8px; box-sizing:border-box; -moz-box-sizing:border-box}. login-card input[type=text]:hover,input[type=password]:hover{border:1px solid #b9b9b9; border-top:1px solide #a0a0a0; -moz-box-shadow:encart 0 1 px 2px rgba(0,0,0  ,.1); -webkit-box-shadow:encart 0 1 px 2px rgba(0,0,0,.1); box-shadow:encart 0 1 px 2px rgba(0,0,0,.1)}. login{font-size:14px; font-family:Arial,sans-serif; font-weight:700; hauteur:36px; Rembourrage:0 8px}. login-submit{-webkit-appearance:none; -moz-apparence: aucun; apparence:aucune; bordure:0; couleur:#fff; ombre_texte:0 1px rgba(0,0,0,.1); background-color:#4d90fe}. login-submit:disabled{opacity:.6}. login-submit:hover{border:0; ombre_texte:0 1px rgba(0,0,0,.3); background-color:#357ae8}. carte de connexion a{text-decoration:none; couleur:#222; font-weight:400; affichage:bloc en ligne; opacité:.6; transition:opacité facilité .5s}. login-card a:hover{opacity:1}. login-help{width:100%; font-size:12px}. list{list-style-type:none; rembourrage:0}. list__item{margin:0 0 .7rem; padding:0}label{display:-webkit-box; affichage:-webkit-flex; affichage:-ms-flexbox; affichage:flex; -webkit-box-align:center; -webkit-align-items:center; -ms-flex-align:center; align-items:center; alignement_texte:gauche; font-size:14px;} input[type=checkbox]{-webkit-box-flex:0; -webkit-flex:aucun; -ms-flex:aucun; flex:aucun; margin-right:10px; float:left}@media écran et (max-width:450px){. login-card{width:70%!important}. login-card img{width:30%; Hauteur:30%}}
+  </style>
+</tête>
+
+<corps>
+<div id="contenu">
+	<div class="carte_login">
+	<img src="/wifi.png">
+		
+ 		<H1></H1>
+	  <form name="login_form » method=action « post »="">
+		<input type="text » name="auth_user » placeholder="User » id="auth_user">
+		<input type="password » name="auth_pass » placeholder="Password » id="auth_pass">
+		  <div class="login-help">
+			<ul class="list">
+				<li class="list__item">
+				  <label class="label--checkbox">
+					  <input type="checkbox » class="checkbox » onchange="document.getElementById('login').disabled = !this.checked;">
+					  <span>Je suis d’accord avec le <a target="_blank » rel="noopener » href="index.html">terms & licences</a></span>
+				  </étiquette>
+				</Li>
+			</Ul>
+		  </Div>
+		
+		<input type="submit » name="accept » class="login login-submit » value="Login » id="login » désactivé>
+	  </forme>
+	</Div>
+</Div>
+</corps>
+</.html>
