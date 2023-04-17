@@ -1,0 +1,177 @@
+/*Base*/
+html,
+corps {
+  marge : 0;
+  rembourrage: 0;
+  Largeur: 100%;
+  Hauteur: 100%;
+  affichage: table;
+}
+
+/*Contenu*/
+#contenu {
+  font-family: 'Source Sans Pro', sans-serif;
+  arrière-plan: url (pleasechangethis.jpg) centre sans répétition fixe;
+  -webkit-background-size: couverture;
+  -moz-background-size: couverture;
+  -o-background-size: couverture;
+  taille de fond: couverture;
+  affichage: tableau-cellule;
+  text-align: centrer;
+  vertical-align: milieu;
+}
+
+
+/* Carte de connexion */
+. carte_login {
+  Rembourrage: 40px;
+  Largeur: 274px;
+  couleur de fond: #F7F7F7;
+  Marge : 0 Auto 10px;
+  rayon de bordure: 2px;
+  box-shadow: 0 px 2 px 2 px rgba(0, 0, 0, 0.3 );
+  débordement: caché;
+}
+
+. Carte de connexion A {
+  texte-décoration: aucun;
+  Couleur: #666;
+  font-weight: 400;
+  text-align: centrer;
+  affichage: bloc en ligne;
+  Opacité: 0.6;
+  Transition : opacité facilité 0,5s;
+}
+
+. Carte de connexion A:Hover {
+  opacité: 1;
+}
+
+. Carte de connexion H1 {
+  font-weight: 400;
+  text-align: centrer;
+  font-size: 2.3em;
+  Couleur: #1383C6;
+}
+
+. Carte de connexion H1 Span {
+  Couleur: #F26721;
+}
+
+. carte de connexion img {
+  Largeur: 28%;
+  Hauteur: 28%;
+}
+
+. entrée_login-card[type=submit] {
+  Largeur: 100%;
+  affichage: bloc;
+  marge-bas: 10px;
+  position: relative;
+}
+
+. login-card input[type=text],
+input[type=mot de passe] {
+  Hauteur: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-card input[type=text]:hover,
+input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Login */
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.login-submit {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  background-color: #4d90fe;
+}
+
+.login-submit:disabled {
+  opacity: 0.6;
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background-color: #357ae8;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Checkbox */
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+. list__item {
+  Marge :  0 0 .7rem 0 ;
+  rembourrage: 0;
+}
+
+étiquette {
+  affichage: -webkit-box;
+  affichage: -webkit-flex;
+  affichage: -ms-flexbox;
+  affichage: flex;
+  -webkit-box-align: centre;
+  -webkit-align-items: centre;
+  -ms-flex-align: centre;
+  align-items: centre;
+  text-align: gauche;
+}
+
+input[type=radio],
+input[type=case à cocher] {
+  -webkit-box-flex: 0;
+  -webkit-flex: aucun;
+  -ms-flex : aucun ;
+  flex : aucun;
+  marge-droite : 10px;
+  flotteur: gauche;
+}
+
+/* Requête de média */
+@media écran et (largeur max: 450px) {
+ . carte_login {
+    Largeur: 70% !important;
+  }
+
+ . carte de connexion img {
+    Largeur: 30%;
+    Hauteur: 30%;
+  }
+}
